@@ -274,6 +274,13 @@ footer {
         float: left;
         padding: 0;
     }
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
     
     hr {
         display: none;
@@ -282,7 +289,7 @@ footer {
 
 /* For medium screen sizes from 950px wide and down*/
 
-@media screen and (max-width:950px) {
+@media screen and (max-width: 950px) {
     #menu {
         clear: left;
         float: left;
@@ -301,7 +308,7 @@ footer {
         margin: 0 auto;
     }
 
-    #left-about, #right-about {
+    .left-about-heading, .right-about-heading {
         width: inherit;
     }
 
@@ -314,4 +321,7 @@ footer {
         text-align: center;
         padding: 0 20px;
     }
+
+
+
 }
